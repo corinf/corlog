@@ -2,35 +2,40 @@
 label: Blog
 hide_body: false
 fields:
-  - name: date
-    type: datetime
-    label: Date
-    description: ""
-    config:
-      required: true
-      date_format:
-      time_format:
-      display_utc: false
-    default: now
-  - name: title
-    type: text
-    label: Title
-    description: ""
-    config:
-      required: true
-  - name: category
-    type: text
-    label: Category
-    description: ""
-    config:
-      required: true
-  - name: desc
-    type: text
-    label: Description
-    description: ""
-    config:
-      required: true
-  - name: alt
-    type: text
-    label: Alt Text
-    description: ""
+- name: date
+  type: datetime
+  label: Date
+  description: ''
+  config:
+    required: true
+    date_format: 
+    time_format: 
+    display_utc: false
+  default: now
+- name: title
+  type: text
+  label: Title
+  description: ''
+  config:
+    required: true
+- name: category
+  type: text
+  label: Category
+  description: ''
+  config:
+    required: true
+- name: desc
+  type: text
+  label: Description
+  description: ''
+  config:
+    required: true
+- name: thumbnail
+  type: file
+  config:
+    maxSize: 64
+  label: thumbnail
+- name: alt
+  type: text
+  label: Alt Text
+  description: ''

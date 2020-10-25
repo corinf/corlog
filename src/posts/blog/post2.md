@@ -7,7 +7,7 @@ thumbnail: "/uploads/james-eades-dwnciy8oh10-unsplash.jpg"
 alt: not a good image
 
 ---
-# Post 2
+## Post 2
 
 ### Great if it works
 

@@ -7,6 +7,7 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "forestry:preview": "gatsby develop -p 8080 -H 0.0.0.0",
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean"

@@ -1,0 +1,1 @@
+module.exports = require("C:\\dev\\corlog\\src\\styles\\typography")

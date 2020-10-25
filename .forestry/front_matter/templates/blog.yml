@@ -39,5 +39,3 @@ fields:
   type: text
   label: Alt Text
   description: ''
-pages:
-- src/posts/blog/post2.md
